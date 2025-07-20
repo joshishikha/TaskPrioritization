@@ -1,0 +1,28 @@
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f7f7f7;
+ text-align: center;
+ padding: 40px;
+}
+.container {
+ max-width: 500px;
+ margin: auto;
+ background: white;
+ padding: 30px;
+ border-radius: 10px;
+ box-shadow: 0 0 10px #ccc;
+}
+.timer h2 {
+ font-size: 48px;
+ margin: 20px 0;
+}
+button {
+ margin: 5px;
+ padding: 10px 20px;
+ font-size: 16px;
+}
+input[type="text"] {
+ padding: 10px;
+ width: 60%;
+ margin-bottom: 10px;
+}

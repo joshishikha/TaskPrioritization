@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>FocusFlow</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+<h1>FocusFlow ⏰</h1>
+<div class="timer">
+<h2 id="timer">25:00</h2>
+<button onclick="startTimer()">Start</button>
+<button onclick="resetTimer()">Reset</button>
+</div>
+<div class="tasks">
+<h3>Today's Tasks</h3>
+<input type="text" id="taskInput" placeholder="New task..." />
+<button onclick="addTask()">Add</button>
+<ul id="taskList"></ul>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
