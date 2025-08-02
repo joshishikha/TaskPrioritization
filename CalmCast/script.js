@@ -5,17 +5,17 @@ function startTimer() {
  timer = setInterval(() => {
    if (timeLeft <= 0) {
      clearInterval(timer);
-     alert("Time's up! Take a break!");
+     alert("Time's up! Take a break or extend!");
      return;
    }
    timeLeft--;
-   displayTime();
+   displayTime(); //fixed time display
  }, 1000);
 }
 function resetTimer() {
  clearInterval(timer);
  timer = null;
- timeLeft = 25 * 60;
+ timeLeft = 25 * 60; //provide options to set custom time
  displayTime();
 }
 function displayTime() {
