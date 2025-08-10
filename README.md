@@ -1,2 +1,2 @@
-#Focus App
-#Tech stack - HTML, JavaScript, CSS
+#Focus App for PRI actvities and tasks
+#Productivity app
